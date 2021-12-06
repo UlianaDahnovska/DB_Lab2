@@ -4,7 +4,7 @@ query1 = '''
 SELECT Category.FURNITURE_CATEGORY_NAME,Furniture_Price.FURNITURE_PRICE 
 FROM Furniture 
 JOIN Category ON Furniture.FURNITURE_CATEGORY_ID = Category.FURNITURE_CATEGORY_ID 
-JOIN Furniture_Price ON Furniture.FURNITURE_ID = Furniture_Pricefood_id  
+JOIN Furniture_Price ON Furniture.FURNITURE_ID = Furniture_Price.FURNITURE_ID 
 '''
 
 query2 = '''
